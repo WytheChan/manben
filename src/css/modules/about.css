@@ -1,0 +1,231 @@
+.main{
+    border: 1px solid #ddd;
+}
+.main .banner{
+    width: 100%;
+    height: 350px;
+    padding: 80px 0 0 180px;
+    margin-bottom: 100px;
+    background: url(../../img/bg2.png) no-repeat 0 -18px;
+     background-size: 100%;
+}
+.main .banner p{
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #3e3e3e;
+}
+.main .banner h4{
+    font-size: 20px;
+    color: #3e3e3e;
+}
+.main .banner h4:after{
+    content: '';
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background:  #c1c0b3;
+}
+.main .banner h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #3e3e3e;
+}
+.main .banner .preferential{
+    width: 160px;
+    height: 48px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc7c3;
+    border-radius: 10px;
+}
+.main .banner .preferential img{
+    display: inline-block;
+    cursor: pointer;
+}
+.main .banner .preferential a{
+    float: right;
+    margin-top: 5px;
+    margin-right: 15px;
+    padding-left: 10px;
+    border-left: 1px solid #c1c0b3;
+    font-size: 18px;
+    color: #6d6b6c;
+}
+
+.main .difference{
+    padding: 0 60px;
+}
+.main .difference .left{
+    width: 220px;
+}
+.main .difference .left .title{}
+.main .difference .left .title h2{
+    margin-bottom: 90px;
+    font-size: 18px;
+    color: #6d6b6c;
+}
+.main .difference .left img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #c1c0b3;
+}
+.main .difference .left img:nth-of-type(2){
+    margin-left: 80px;
+}
+
+.main .difference .right{
+    width: 645px;
+}
+.main .difference .right .title h2{
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #95da8f;
+    font-size: 15px;
+    color: #6d6b6c;
+}
+.main .difference .right table{
+    margin-top: 25px;
+}
+.main .difference .right table thead{
+    text-align: center;
+}
+.main .difference .right table thead tr{
+     height: 30px;
+     line-height: 30px;
+}
+.main .difference .right table thead tr td{
+     width: 130px;
+     border: 1px solid #ddd;
+    font-size: 18px;
+    color: #6d6b6c;
+}
+.main .difference .right table tbody{}
+.main .difference .right table tbody tr{
+    height: 170px;
+}
+.main .difference .right table tbody tr td{
+    padding: 50px 0 0 20px;
+    line-height: 20px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    color: #6d6b6c;
+}
+
+.main .advertise{
+    width: 950px;
+    height: 100px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding-top: 25px;
+    background: url(../../img/bg3.png) no-repeat;
+    border: 1px solid #ddd;
+}
+.main .advertise .box{
+    position: relative;
+   left: 650px;
+}
+.main .advertise .box p{
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #6d6b6c;
+}
+.main .advertise .box a{
+    font-size: 15px;
+    color: #b6e5b2;
+    text-decoration: underline;
+}
+
+.main .staff{
+     padding: 0 100px 100px 100px;
+}
+.main .staff .member{
+    margin-bottom: 20px;
+}
+.main .staff .member .headimg{
+    position: relative;
+    width: 80px;
+    height: 160px;
+    border: 1px solid #ddd;
+}
+.main .staff .member-3 .headimg{
+    position: relative;
+    right: 180px;
+}
+.main .staff .member .headimg img{
+    display: inline-block;
+}
+.main .staff .member .headimg h2{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #686868;
+    font-size: 18px;
+    color: #6d6b6c;
+}
+.main .staff .member-1 .headimg h2{
+    position: absolute;
+    top: 35px;
+    left: -10px;
+}
+.main .staff .member-2 .headimg h2,
+.main .staff .member-3 .headimg h2{
+    position: absolute;
+    top: 35px;
+    right: -20px;
+}
+.main .staff .member .headimg .name{
+    font-size: 15px;
+    color: #6d6b6c;
+}
+.main .staff .member-1 .headimg .name{
+    position: absolute;
+    top: 120px;
+    left: -50px;
+}
+.main .staff .member-2 .headimg .name,
+.main .staff .member-3 .headimg .name{
+    position: absolute;
+    top: 120px;
+    right: -30px;
+}
+.main .staff .member .title{
+    margin-left: 200px;
+}
+.main .staff .member .title h2{
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #6d6b6c;
+}
+.main .staff .member .title p{
+    font-size: 16px;
+    color: #6d6b6c;
+}
+.main .staff .member .title p:after{
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: #686868;
+}
+.main .staff .member-2 .info,
+.main .staff .member-3 .info{
+    float: left;
+    margin-left: 200px;
+    margin-top: 80px;
+    
+}
+.main .staff .member .info span{
+    position: relative;
+    top: -20px;
+    margin-left: 60px;
+    font-size: 18px;
+    color: #6d6b6c;
+}
+.main .staff .member .info p{
+    display: inline-block;
+    width: 460px;
+    line-height: 20px; 
+    font-size: 15px;
+    color: #6d6b6c;
+}

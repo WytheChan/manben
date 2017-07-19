@@ -1,0 +1,83 @@
+.main{
+    padding: 40px 40px 40px 120px;
+    border: 1px solid #e3e3e3;
+}
+.main .service{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.main .service .contact{
+    width: 150px;
+    height: 320px;
+    padding-top: 20px;
+    margin-right: 80px;
+}
+.main .service .contact h4{
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #6d6b6c;
+}
+.main .service .contact h1{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #6d6b6c;
+}
+.main .service .contact .link{
+    width: 150px;
+    height: 35px;
+    margin-bottom: 10px;
+    line-height: 35px;
+    background: #90c31f url(../../img/ear.png) no-repeat 5px 6px;
+    border-radius: 10px;
+    text-align: center;
+}
+.main .service .contact .link a{
+     margin-bottom: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+.main .service .contact p{
+    font-size: 15px;
+    color: #6d6b6c;
+}
+.main .service .box{
+    float: left;
+    width: 240px;
+    height: 320px;
+    margin-left: 15px;
+    padding: 20px 15px 0px 15px;
+    border: 1px solid #e3e3e3;
+    text-align: center;
+}
+.main .service .box h1{
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #6d6b6c;
+}
+.main .service .box h1 span{
+    font-size: 15px;
+    color: #6d6b6c;
+}
+.main .service .box h3{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #6d6b6c;
+}
+.main .service .box p{
+    line-height: 20px;
+    font-size: 15px;
+    color: #6d6b6c;
+}
+.main .service .box p a{
+    border-bottom: 1px dotted #90c31f;
+    font-size: 15px;
+    color: #6d6b6c;
+}
+.main .service .box img{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.main .service .pay{
+    display: inline-block;
+    margin-bottom: 20px;
+}

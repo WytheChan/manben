@@ -1,0 +1,71 @@
+.main{}
+.main .banner{
+    height: 580px;
+    background: url(../../img/banner.png) no-repeat;
+} 
+/*.main .banner .cover{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+}
+.main .banner .cover img{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    margin-top: -85px;
+}*/
+.main .bottom{
+    height: 580px;
+    padding: 0px 22px 0px 28px;
+    background: #b5b4b4;
+}
+.main .bottom .goods{
+    position: relative;
+    top: -34px;
+    height: 565px;
+    padding: 80px 80px 80px 130px;
+    background: #fff;
+}
+.main .bottom .goods .goods-item{
+    width: 370px;
+    height: 440px;
+    text-align: center;
+}
+.main .bottom .goods .goods-item+.goods-item{
+    border-left: 1px solid #e4e3e3;
+}
+.main .bottom .goods .goods-item-1{
+    margin-right: 90px;
+}
+.main .bottom .goods .goods-item-2{
+    padding-left: 90px;
+}
+.main .bottom .goods .goods-item-2 img{
+    margin-bottom:70px;
+}
+.main .bottom .goods .goods-item img{
+    display: inline-block;
+    margin-bottom: 60px;
+}
+.main .bottom .goods .goods-item-2 img{
+    margin-bottom:70px;
+}
+.main .bottom .goods .goods-item p{
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #939293;
+}
+.main .bottom .goods .goods-item .buy{
+    display: inline-block;
+    width: 152px;
+    height: 30px;
+    margin-top: 30px;
+    line-height: 30px;
+    background: #62cc56;
+    border-radius: 12px;
+}
+.main .bottom .goods .goods-item .buy a{
+    font-size: 18px;
+    color: #fff;
+}

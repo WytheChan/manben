@@ -1,0 +1,255 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+}
+.cover img{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    margin-top: -85px;
+}
+.load{
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.load img{
+    position: relative;
+    top: 30%;
+    left: 50%;
+}
+/*====================================header style start=====================================*/
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+header .logo {
+    width: 100%;
+    height: 96px;
+    background: #6d6b6c;
+}
+
+header .logo img {
+    display: inline-block;
+    margin-top: 11px;
+}
+
+header .nav {
+    line-height: 44px;
+}
+
+header .nav li {
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 50px;
+    font-size: 16px;
+    color: #6d6b6c;
+    cursor: pointer;
+}
+
+header .nav li a {
+    font-size: 16px;
+    color: #6d6b6c;
+}
+
+header .nav li.active,
+header .nav li:hover {
+    color: #298c2d;
+}
+
+header .nav li.active a,
+header .nav li:hover a {
+    color: #298c2d;
+}
+
+
+/*====================================header style end=======================================*/
+
+
+/*====================================footer style end=======================================*/
+
+footer {
+    margin-top: 70px;
+}
+
+footer .container {
+    text-align: center;
+}
+
+footer .present {}
+
+footer .present img {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+footer .present p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #4c4c4c;
+}
+
+footer .present:after {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background: #a9a9a9;
+}
+
+footer .vip {
+    display: inline-block;
+    width: 100%;
+    margin-top: 75px;
+    margin-bottom: 55px;
+}
+
+footer .vip li {
+    float: left;
+    width: 400px;
+    height: 78px;
+}
+
+footer .vip li+li {
+    border-left: 1px solid #bfbfbf;
+}
+
+footer .vip li h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #4c4c4c;
+}
+
+footer .vip li a {
+    font-size: 18px;
+    color: #4c4c4c;
+}
+
+footer .footer-logo {
+    width: 100%;
+    height: 90px;
+    padding: 24px 30px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+footer .footer-logo img {
+    float: left;
+}
+
+footer .footer-logo .profession {}
+
+footer .footer-logo .profession li {
+    float: left;
+    width: 200px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 40px;
+    line-height: 25px;
+    border-left: 1px solid #a9a9a9;
+}
+
+footer .footer-logo .profession li img {
+    display: inline-block;
+    padding-left: 58px;
+}
+
+footer .footer-logo .profession li a {
+    font-size: 16px;
+    color: #4c4c4c;
+}
+
+footer .footer-bottom {
+    padding: 40px 35px 0px 100px;
+}
+
+footer .footer-bottom .footer-main {}
+
+footer .footer-bottom .footer-main dl {
+    float: left;
+    margin-left: 90px;
+}
+
+footer .footer-bottom .footer-main dl dt {
+    margin-bottom: 35px;
+    font-size: 18px;
+    color: #4c4c4c;
+}
+
+footer .footer-bottom .footer-main dl dd {
+    margin-bottom: 18px;
+}
+
+footer .footer-bottom .footer-main dl dd a {
+    font-size: 15px;
+    color: #747474;
+}
+
+footer .footer-bottom .contact {
+    height: 112px;
+    padding-left: 40px;
+    border-left: 1px solid #a9a9a9;
+}
+
+footer .footer-bottom .contact h2 a{
+    font-size: 24px;
+    color: #62cc56;
+}
+
+footer .footer-bottom .contact p {
+    margin-top: 10px;
+    margin-bottom: 27px;
+    font-size: 15px;
+    color: #4c4c4c;
+}
+
+footer .footer-bottom .contact .service {
+    display: inline-block;
+    width: 125px;
+    height: 35px;
+    line-height: 35px;
+    background: #62cc56;
+    border-radius: 8px;
+}
+
+footer .footer-bottom .contact .service a {
+    font-size: 15px;
+    color: #fff;
+}
+
+
+/*====================================footer style end=======================================*/

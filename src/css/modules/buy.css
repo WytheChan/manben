@@ -1,0 +1,666 @@
+.main {
+    padding: 30px 30px;
+    border: 1px solid #ddd;
+}
+
+.main .buy {
+    width: 100%;
+    /*padding: 30px;*/
+    margin-bottom: 50px;
+}
+
+.main .buy .goods-img {
+    width: 450px;
+    height: 430px;
+}
+
+.main .buy .goods-img img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.main .buy .buy-info {
+    width: 600px;
+    height: 430px;
+}
+
+.main .buy .buy-info .title {
+    margin-top: 15px;
+}
+
+.main .buy .buy-info .title h1 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.main .buy .buy-info .title p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #5c5c5c;
+}
+
+.main .buy .buy-info .goods-info {}
+
+.main .buy .buy-info .goods-info .price-info {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    padding: 20px 10px 10px 10px;
+    background: #f3f3f3;
+}
+
+.main .buy .buy-info .goods-info .price-info span {
+    font-size: 14px;
+    color: #5c5c5c;
+}
+
+.main .buy .buy-info .goods-info .price-info .price {
+    margin: 0 8px;
+    font-size: 22px;
+    color: red;
+}
+
+.main .buy .buy-info .goods-info .price-info a {
+    font-size: 14px;
+    color: blue;
+}
+
+.main .buy .buy-info .goods-info .price-info .service {
+    margin-top: 10px;
+}
+
+.main .buy .buy-info .goods-info .price-info .service li {
+    display: inline-block;
+    font-size: 14px;
+    color: #5c5c5c;
+}
+
+.main .buy .buy-info .goods-info .price-info .service li:first-child {
+    margin-right: 20px;
+}
+
+.main .buy .buy-info .goods-info .price-info .service li span {
+    position: relative;
+    top: -3px;
+    font-size: 20px;
+    color: #5c5c5c;
+}
+
+.main .buy .buy-info .goods-info .price-info .comment {
+    float: right;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    border-left: 1px solid #ddd;
+    text-align: center;
+}
+
+.main .buy .buy-info .goods-info .price-info .comment h2 {
+    margin-bottom: 3px;
+    font-size: 14px;
+    color: #5c5c5c;
+}
+
+.main .buy .buy-info .goods-info .price-info .comment a {
+    font-size: 15px;
+    color: blue;
+}
+
+.main .buy .buy-info .size-info {
+    margin-top: 40px;
+}
+
+.main .buy .buy-info .size-info span,
+.main .buy .buy-info .color-info span,
+.main .buy .buy-info .amount-info span {
+    float: left;
+    margin-top: 8px;
+    margin-right: 30px;
+    font-size: 16px;
+    color: #5c5c5c;
+}
+
+.main .buy .buy-info .size-info .size {
+    float: left;
+    width: 115px;
+    height: 30px;
+    margin-right: 10px;
+    line-height: 30px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.main .buy .buy-info .size-info .size a {
+    font-size: 16px;
+    color: #5c5c5c;
+}
+
+.main .buy .buy-info .color-info {
+    margin-top: 20px;
+}
+
+.main .buy .buy-info .color-info span {
+    margin-top: 20px;
+}
+
+.main .buy .buy-info .color-info .color {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.main .buy .buy-info .color-info .color a {}
+
+.main .buy .buy-info .color-info .color a img {
+    display: inline-block;
+}
+
+.main .buy .buy-info .amount-info {
+    margin-top: 20px;
+}
+
+.main .buy .buy-info .amount-info span {}
+
+.main .buy .buy-info .amount-info .amount {
+    float: left;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ddd;
+}
+
+.main .buy .buy-info .amount-info .amount li {
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    color: #5c5c5c;
+}
+
+.main .buy .buy-info .amount-info .amount .lower {
+    width: 38px;
+    height: 100%;
+}
+
+.main .buy .buy-info .amount-info .amount .num {
+    width: 52px;
+    height: 100%;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.main .buy .buy-info .amount-info .amount .add {
+    width: 38px;
+    height: 100%;
+}
+
+.main .buy .buy-info input {
+    float: left;
+    width: 165px;
+    height: 48px;
+    margin-top: 45px;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main .buy .buy-info input:focus {
+    outline: none;
+}
+
+.main .buy .buy-info .instant-buy input {
+    margin-right: 10px;
+    background: red;
+    color: #fff;
+}
+
+.main .buy .buy-info .share input {
+    background: #fff;
+    color: red;
+}
+
+.main .tab {
+    height: 2000px;
+}
+
+.main .tab .tab-top {
+    height: 45px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+}
+
+.main .tab .tab-top .tab-item {
+    position: relative;
+    width: 170px;
+    height: 45px;
+}
+
+.main .tab .tab-top .tab-item.active {
+    height: 100%;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 3px solid #b6b6b6;
+    background: #fff;
+}
+
+.main .tab .tab-top .tab-item .title {
+    line-height: 45px;
+    font-size: 15px;
+    color: #5c5c5c;
+    text-align: center;
+}
+.main .tab .tab-top .tab-item:nth-of-type(3) .title img{
+    display: inline-block;
+}
+
+/*=====================detail sytle start============================*/
+
+.main .tab .tab-top .tab-item .detail {
+    /*display: none;*/
+    width: 1138px;
+    height: 500px;
+    margin-top: -4px;
+}
+
+.main .tab .tab-top .tab-item .detail .about-goods {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.main .tab .tab-top .tab-item .detail .about-goods li {
+    height: 45px;
+    line-height: 45px;
+    font-size: 15px;
+    color: #5c5c5c;
+}
+
+.main .tab .tab-top .tab-item .detail .about-goods li+li {
+    border-top: 1px dotted #9d9d9d;
+}
+
+.main .tab .tab-top .tab-item .detail .about-goods span {
+    display: inline-block;
+    width: 120px;
+    margin-left: 70px;
+    font-size: 15px;
+    color: #5c5c5c;
+}
+
+.main .tab .tab-top .tab-item .detail .banner {
+    width: 100%;
+    height: 350px;
+    padding: 80px 0 0 180px;
+    margin-bottom: 100px;
+    background: url(../../img/bg-5.png) no-repeat;
+    background-size: 100%;
+    text-align: left;
+}
+
+.main .tab .tab-top .tab-item .detail .banner p {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #3e3e3e;
+}
+
+.main .tab .tab-top .tab-item .detail .banner h4 {
+    font-size: 20px;
+    color: #3e3e3e;
+}
+
+.main .tab .tab-top .tab-item .detail .banner h4:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: #c1c0b3;
+}
+
+.main .tab .tab-top .tab-item .detail .banner h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #3e3e3e;
+}
+
+.main .tab .tab-top .tab-item .detail .banner .preferential {
+    width: 160px;
+    height: 48px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc7c3;
+    border-radius: 10px;
+}
+
+.main .tab .tab-top .tab-item .detail .banner .preferential img {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.main .tab .tab-top .tab-item .detail .banner .preferential a {
+    float: right;
+    margin-top: 5px;
+    margin-right: 15px;
+    padding-left: 10px;
+    border-left: 1px solid #c1c0b3;
+    font-size: 18px;
+    color: #6d6b6c;
+}
+
+.main .tab .tab-top .tab-item .detail .chart {
+    width: 100%;
+    height: 400px;
+}
+
+.main .tab .tab-top .tab-item .detail .chart .text {
+    width: 270px;
+    height: 100%;
+    padding: 60px 50px 0px 45px;
+    border-right: 1px solid #ddd;
+}
+
+.main .tab .tab-top .tab-item .detail .chart .text h2 {
+    width: 185px;
+    margin-bottom: 60px;
+    line-height: 24px;
+    font-size: 20px;
+    color: #6d6b6c;
+}
+
+.main .tab .tab-top .tab-item .detail .chart .text .analyze {
+    width: 90px;
+    height: 50px;
+}
+
+.main .tab .tab-top .tab-item .detail .chart .text .analyze img {
+    display: inline-block;
+}
+
+.main .tab .tab-top .tab-item .detail .chart .text .analyze span {
+    float: right;
+    width: 40px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #6d6b6c;
+}
+
+.main .tab .tab-top .tab-item .detail .chart .text .analyze p {
+    width: 185px;
+    margin-top: 60px;
+    line-height: 20px;
+    font-size: 15px;
+    color: #6d6b6c;
+}
+
+.main .tab .tab-top .tab-item .detail .chart .text .analyze .focus {
+    text-decoration: underline;
+    margin-bottom: -55PX;
+}
+
+.main .tab .tab-top .tab-item .detail .chart .chart-img {}
+
+.main .tab .tab-top .tab-item .detail .chart .chart-img img {
+    margin-top: 60px;
+    margin-right: 130px;
+}
+
+
+/*=====================detail sytle end============================*/
+
+
+/*=====================comment sytle start============================*/
+
+.main .tab .tab-top .tab-item .comment {
+    display: none;
+    position: relative;
+    left: -170px;
+    width: 1138px;
+    height: 500px;
+    margin-top: -4px;
+}
+
+.main .tab .tab-top .tab-item .comment form {
+    width: 100%;
+    margin-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 170px;
+    border-bottom: 1px solid #ddd;
+}
+
+.main .tab .tab-top .tab-item .comment form input {}
+
+.main .tab .tab-top .tab-item .comment form label {
+    font-size: 15px;
+    color: #6d6b6c;
+}
+
+.main .tab .tab-top .tab-item .comment .comment-item {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    padding: 30px 20px;
+    border-bottom: 1px dotted #ddd;
+}
+
+.main .tab .tab-top .tab-item .comment .comment-item .user {
+    width: 70px;
+    height: 80px;
+    padding-left: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.main .tab .tab-top .tab-item .comment .comment-item .user img {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.main .tab .tab-top .tab-item .comment .comment-item .user p {
+    font-size: 12px;
+    color: #6d6b6c;
+}
+
+.main .tab .tab-top .tab-item .comment .comment-item h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #6d6b6c;
+}
+
+.main .tab .tab-top .tab-item .comment .comment-item span {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #9d9d9d;
+}
+
+.main .tab .tab-top .tab-item .comment .comment-item .time {
+    display: inline-block;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    font-size: 13px;
+    color: #9d9d9d;
+}
+.main .tab .tab-top .tab-item .comment .page{
+    width: 360px;
+    height: 40px;
+    margin-top: 30px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    text-align: center
+}
+.main .tab .tab-top .tab-item .comment .page li{
+    float: left;
+    width: 33px;
+    height: 100%;
+}
+.main .tab .tab-top .tab-item .comment .page li+li{
+    border-left: 1px solid #ddd;
+}
+.main .tab .tab-top .tab-item .comment .page .up,
+.main .tab .tab-top .tab-item .comment .page .down{
+    width: 80px;
+    height: 100%;
+}
+.main .tab .tab-top .tab-item .comment .page li.active{
+    background: #b4a078;
+    
+}
+.main .tab .tab-top .tab-item .comment .page li.active a{
+    color: #fff;
+}
+.main .tab .tab-top .tab-item .comment .page li a{
+    font-size: 13px;
+    color: #9d9d9d;
+}
+
+/*=====================comment sytle end============================*/
+
+
+/*=====================ask sytle start============================*/
+.main .tab .tab-top .tab-item .ask{
+    display: none;
+    position: absolute;
+    width: 1138px;
+    left: -340px;
+}
+.main .tab .tab-top .tab-item .ask .people-num{
+    width: 250px;
+    height: 35px;
+    margin-top: 35px;
+    padding-left: 20px;
+    line-height: 35px;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+.main .tab .tab-top .tab-item .ask .people-num .question-mark{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background: #78cb27;
+    font-size: 18px;
+    color: #fff;
+}
+.main .tab .tab-top .tab-item .ask .people-num span{
+     font-size: 18px;
+    color: #6d6b6c;
+} 
+.main .tab .tab-top .tab-item .ask .problem-info{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+.main .tab .tab-top .tab-item .ask .problem-info .problem{
+    width: 180px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.main .tab .tab-top .tab-item .ask .problem-info .problem .p-box{
+    width: 30px;
+    height: 30px;
+    padding: 0 5px;
+    margin-right: 10px;
+    background: #78cb27;
+    line-height: 30px;
+    text-align: center;
+     font-size: 14px;
+    color: #fff;
+}
+.main .tab .tab-top .tab-item .ask .problem-info .problem span{
+     font-size: 14px;
+    color: #6d6b6c;
+}
+.main .tab .tab-top .tab-item .ask .problem-info .answer{
+    margin-bottom: 20px;
+}
+.main .tab .tab-top .tab-item .ask .problem-info .answer .a-box{
+    width: 30px;
+    height: 30px;
+    padding: 0 5px;
+    margin-right: 10px;
+    background: #5c5c5c;
+    line-height: 30px;
+    text-align: center;
+     font-size: 14px;
+    color: #fff;
+}
+.main .tab .tab-top .tab-item .ask .problem-info .answer span{
+    font-size: 14px;
+    color: #6d6b6c;
+}
+.main .tab .tab-top .tab-item .ask .problem-info .check{
+    margin-left: 40px;
+}
+.main .tab .tab-top .tab-item .ask .problem-info .check a{
+    font-size: 16px;
+    color: skyblue;
+}
+.main .tab .tab-top .tab-item .ask .problem-info img{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.main .tab .tab-top .tab-item .ask .problem-info .time{
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    font-size: 14px;
+    color: #9d9d9d;
+}
+
+.main .tab .tab-top .tab-item .ask form{
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.main .tab .tab-top .tab-item .ask form input:focus{
+    outline: none;
+}
+.main .tab .tab-top .tab-item .ask form input[type=text]{
+    width: 100%;
+    height: 200px;
+    text-indent: 1em;
+}
+.main .tab .tab-top .tab-item .ask form label{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width:1136px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 1px;
+    background: #ddd;
+    text-indent: 1em;
+    font-size: 14px;
+    color: #6d6b6c;
+}
+.main .tab .tab-top .tab-item .ask form input[type=submit],
+.main .tab .tab-top .tab-item .ask form input[type=button]{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+     font-size: 15px;
+    color: #fff;
+}
+.main .tab .tab-top .tab-item .ask form input[type=submit]{
+    background: #acacac;
+}
+.main .tab .tab-top .tab-item .ask form input[type=button]{
+    background: #78cb27;
+}
+
+/*=====================ask sytle end============================*/
